@@ -439,16 +439,16 @@ class Main extends PluginBase implements Listener{
 				$this->sendToAll("[SurvivalGame] The game will start in ".$this->lastTime." seconds");
 				break;
 			case 60:
-				$this->sendToAll(" [SurvialGame] The game will start in one minute");
+				$this->sendToAll(" [SurvialGame] The game will start in 1 minute");
 				break;
 			case 90:
-				$this->sendToAll("[Survial Game] The game will start in one minute thirty seconds");
+				$this->sendToAll("[Survial Game] The game will start in 1 minute 30 seconds");
 				break;
 			case 120:
-				$this->sendToAll("[Survial Game] The game will start in two minutes");
+				$this->sendToAll("[Survial Game] The game will start in 2 minutes");
 				break;
 			case 150:
-				$this->sendToAll("[Survial Game] The game will start in two minutes thirty seconds");
+				$this->sendToAll("[Survial Game] The game will start in 2 minutes 30 seconds");
 				break;
 			case 0:
 				$this->gameStatus=2;
@@ -892,7 +892,7 @@ class Main extends PluginBase implements Listener{
 			{
 				$this->gameStatus=0;
 				$this->lastTime=0;
-				$this->sendToAll("[SurvivalGames no enough players,stop counting down");
+				$this->sendToAll("[SurvivalGames not enough players,stop counting down");
 				/*foreach($this->players as $pl)
 				{
 					$p=$this->getServer()->getPlayer($pl["id"]);
